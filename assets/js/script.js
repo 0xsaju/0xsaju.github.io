@@ -171,7 +171,7 @@ VanillaTilt.init(document.querySelectorAll(".tilt"), {
 // window.onload = fadeOut;
 // pre loader end
 
-// disable developer mode
+// diHossain developer mode
 document.onkeydown = function (e) {
     if (e.keyCode == 123) {
         return false;
