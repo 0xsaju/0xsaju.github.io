@@ -64,10 +64,6 @@
         "icon": "https://img.icons8.com/color/48/000000/golang.png"
     },
     {
-        "name": "Apache",
-        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-shadow-tal-revivo.png"
-    },
-    {
         "name": "Nginx",
         "icon": "https://img.icons8.com/color/48/000000/nginx.png"
     },
@@ -86,10 +82,6 @@
     {
         "name": "Bash",
         "icon": "https://img.icons8.com/color/48/000000/bash.png"
-    },
-    {
-        "name": "Veeam",
-        "icon": "https://img.icons8.com/color/48/000000/veeam.png"
     },
     {
         "name": "Kali Linux",
