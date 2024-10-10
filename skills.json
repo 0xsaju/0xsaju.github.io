@@ -21,7 +21,7 @@
     },
     {
         "name": "Azure",
-        "icon": "https://img.icons8.com/color/48/000000/microsoft-azure.png"
+        "icon": "https://img.icons8.com/color/48/azure-1.png"
     },
     {
         "name": "Jenkins",
@@ -37,7 +37,7 @@
     },
     {
         "name": "Prometheus",
-        "icon": "https://img.icons8.com/color/48/000000/prometheus.png"
+        "icon": "https://img.icons8.com/color/48/000000/prometheus-app.png"
     },
     {
         "name": "Grafana",
@@ -57,7 +57,7 @@
     },
     {
         "name": "Nmap",
-        "icon": "https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/000000/external-nmap-a-network-mapping-utility-available-for-unix-linux-windows-and-macos-logo-color-tal-revivo.png"
+        "icon": "https://img.icons8.com/color/48/000000/nmap.png"
     },
     {
         "name": "Wireshark",
@@ -69,7 +69,7 @@
     },
     {
         "name": "Apache",
-        "icon": "https://img.icons8.com/color/48/000000/apache.png"
+        "icon": "https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-apache-a-free-and-open-source-cross-platform-web-server-software-logo-shadow-tal-revivo.png"
     },
     {
         "name": "Nginx",
@@ -101,7 +101,7 @@
     },
     {
         "name": "Burp Suite",
-        "icon": "https://img.icons8.com/color/48/000000/burp-suite.png"
+        "icon": "https://img.icons8.com/ios/50/burp-suite.png"
     },
     {
         "name": "Metasploit",
