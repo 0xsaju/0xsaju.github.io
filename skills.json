@@ -48,10 +48,6 @@
         "icon": "https://img.icons8.com/color/48/000000/splunk.png"
     },
     {
-        "name": "Fortinet",
-        "icon": "https://img.icons8.com/color/48/000000/fortinet.png"
-    },
-    {
         "name": "Proxmox",
         "icon": "https://img.icons8.com/color/48/000000/proxmox.png"
     },
