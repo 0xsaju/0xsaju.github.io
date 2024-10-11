@@ -365,13 +365,9 @@ header .navbar ul li a:hover {
   height: auto;
   border-radius: 5%;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  /* mix-blend-mode: luminosity; */
   transition: 0.3s;
   cursor: pointer;
 }
-/* .about .row .image img:hover {
-  mix-blend-mode: normal;
-} */
 .about .row .content {
   flex: 1 1 45rem;
   padding: 3rem;
@@ -393,19 +389,27 @@ header .navbar ul li a:hover {
   font-weight: 600;
   text-transform: none;
 }
-.about .row .content .box-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  font-family: "Nunito";
-  font-weight: 600;
+.image-gallery {
+  display: flex; /* Use flexbox for horizontal alignment */
+  justify-content: space-between; /* Space images evenly */
+  flex-wrap: wrap; /* Allow wrapping if necessary */
+  margin-top: 1rem; /* Optional: space above the gallery */
 }
-.about .row .content .box-container .box p {
-  text-transform: none;
+
+.image-container {
+  display: inline-block; /* Allows setting dimensions */
+  width: 1.2in; /* Width of the image */
+  height: 1.2in; /* Height of the image */
+  overflow: hidden; /* Hides any overflow */
+  margin: 0.3cm; /* Add minimum spacing of 0.3cm around each image container */
 }
-.about .row .content .box-container .box p span {
-  color: #011aff;
+
+.image-container img {
+  width: 100%; /* Scale image to fit the container */
+  height: 100%; /* Scale image to fit the container */
+  object-fit: cover; /* Crop the image if it doesn't fit perfectly */
 }
+
 .resumebtn {
   margin-top: 6rem;
 }
@@ -434,29 +438,30 @@ header .navbar ul li a:hover {
 .resumebtn .btn:hover i {
   transform: translateX(5px);
 }
-/* about media queries starts*/
+/* about media queries starts */
 @media screen and (max-width: 600px) {
   .about .row .image {
-    margin-top: 2rem;
+      margin-top: 2rem;
   }
   .about .row .image img {
-    margin: 0 auto;
-    width: 80%;
-    mix-blend-mode: normal;
+      margin: 0 auto;
+      width: 80%;
+      mix-blend-mode: normal;
   }
   .about .row {
-    padding: 0.5rem;
-    margin-bottom: 7rem;
+      padding: 0.5rem;
+      margin-bottom: 7rem;
   }
   .about .row .content {
-    padding: 1rem;
+      padding: 1rem;
   }
   .about .row .content .box-container {
-    gap: 0;
+      gap: 0;
+  }
+  .image-gallery {
+      flex-direction: column; /* Stack images on smaller screens */
   }
 }
-/* about media queries ends*/
-/* about section ends */
 
 /* skills section starts */
 .skills {
@@ -775,6 +780,13 @@ header .navbar ul li a:hover {
   left: 50%;
   margin-left: -3px;
   z-index: -2;
+}
+.experience .qoute {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 0.5rem;
 }
 .experience .container {
   padding: 10px 40px;
