@@ -942,6 +942,119 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 
+/* recommendation section starts */
+
+.recommendations-section {
+  padding: 60px 0;
+  background-color: #f9f9f9; /* Adjust background as needed */
+  text-align: center;
+}
+
+.recommendations-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.recommendations-slider {
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  position: relative;
+}
+
+.recommendation-slide {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.recommendation {
+  width: 33.33%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  background-color: #fff;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.recommendation p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.recommendation h4 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.recommendation span {
+  font-size: 0.9rem;
+  color: #777;
+}
+
+.slider-controls {
+  margin-top: 20px;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #555;
+}
+
+.recommendation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Adjust if needed */
+  margin: 0 10px;
+}
+
+.recommendation-image {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+blockquote {
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.recommendation-author {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.recommendation-position {
+  color: #777;
+  font-size: 14px;
+}
+
+/* recommendation section ends */
+
 /* contact section starts */
 .contact {
   background: #e5ecfb;

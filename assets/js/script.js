@@ -246,6 +246,35 @@ srtop.reveal('.work .box', { interval: 200 });
 srtop.reveal('.experience .timeline', { delay: 400 });
 srtop.reveal('.experience .timeline .container', { interval: 400 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+    const slideContainer = document.querySelector('.recommendation-slide');
+    const slideWidth = slideContainer.querySelector('.recommendation').clientWidth;
+    
+    let currentIndex = 0;
+  
+    function showSlide(index) {
+      slideContainer.style.transform = `translateX(-${index * slideWidth}px)`;
+    }
+  
+    nextBtn.addEventListener('click', function() {
+      if (currentIndex < slideContainer.children.length - 3) { // Adjust for the number of visible slides
+        currentIndex++;
+        showSlide(currentIndex);
+      }
+    });
+  
+    prevBtn.addEventListener('click', function() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        showSlide(currentIndex);
+      }
+    });
+  });
+
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
+
+
