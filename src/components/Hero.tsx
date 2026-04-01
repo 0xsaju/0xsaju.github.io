@@ -17,7 +17,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-6 max-w-2xl lg:max-w-3xl py-12 lg:py-20 relative z-20"
+          className="flex flex-col gap-6 max-w-2xl lg:max-w-3xl py-12 lg:py-20 relative z-20 pl-[100px]"
         >
           <div className="flex flex-col gap-2 font-mono text-xs tracking-widest">
             <div className="flex items-center gap-2 text-primary">
@@ -53,7 +53,7 @@ export function Hero() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="absolute bottom-0 right-[-30%] md:right-[-20%] lg:right-[-10%] xl:right-[-5%] w-[800px] md:w-[900px] lg:w-[1000px] xl:w-[1100px] 2xl:w-[1200px] z-0 hidden md:block pointer-events-none"
+          className="absolute bottom-0 right-[100px] w-[800px] md:w-[900px] lg:w-[1000px] xl:w-[1100px] 2xl:w-[1200px] z-0 hidden md:block pointer-events-none"
         >
           <div className="relative w-full h-full flex items-end justify-end">
             {/* 
