@@ -12,12 +12,12 @@ export function Hero() {
         LOC_DHAKA_BD_01
       </div>
 
-      <div className="w-full relative z-10 flex items-center min-h-[calc(100vh-5rem)]">
+      <div className="w-full relative z-10 flex items-center justify-between min-h-[calc(100vh-5rem)]">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-6 max-w-2xl lg:max-w-3xl py-12 lg:py-20 relative z-20 ml-[100px]"
+          className="flex flex-col gap-6 max-w-2xl lg:max-w-3xl py-12 lg:py-20 relative z-20 pl-[100px]"
         >
           <div className="flex flex-col gap-2 font-mono text-xs tracking-widest">
             <div className="flex items-center gap-2 text-primary">
@@ -53,25 +53,26 @@ export function Hero() {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="absolute bottom-0 right-[100px] w-[800px] md:w-[900px] lg:w-[1000px] xl:w-[1100px] 2xl:w-[1200px] z-0 hidden md:block pointer-events-none"
+          className="flex items-end justify-end pr-[100px] h-full flex-shrink-0 hidden md:flex pointer-events-none"
         >
           <div className="relative w-full h-full flex items-end justify-end">
             {/* 
               USER: Once you upload your image to the 'public' folder and name it 'hero-image.png',
               change the src below from the unsplash URL to "/hero-image.png"
             */}
-            <img 
-              src="/hero-image.png" 
-              onError={(e) => {
-                // Fallback to a placeholder if the user hasn't uploaded their image yet
-                e.currentTarget.src = "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop";
-              }}
-              alt="MD Sazzad Hossain - System Architecture" 
-              className="w-full h-auto object-contain object-bottom drop-shadow-[0_0_40px_rgba(20,184,166,0.15)] pointer-events-auto"
-              referrerPolicy="no-referrer"
-            />
-            <div className="absolute bottom-[10%] left-[15%] z-20 font-mono text-[10px] text-primary bg-background/95 px-3 py-1.5 border border-primary/30 backdrop-blur-md pointer-events-auto">
-              INFRA_NODE: SECURE_ENCLAVE_01
+            <div className="relative w-[600px] md:w-[700px] lg:w-[800px] xl:w-[900px]">
+              <img 
+                src="/hero-image.png" 
+                onError={(e) => {
+                  // Fallback to a placeholder if the user hasn't uploaded their image yet
+                  e.currentTarget.src = "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop";
+                }}
+                alt="MD Sazzad Hossain - System Architecture" 
+                className="w-full h-auto object-contain drop-shadow-[0_0_40px_rgba(20,184,166,0.15)] pointer-events-auto"
+                referrerPolicy="no-referrer"
+              />
+              <div className="absolute bottom-[5%] left-[10%] z-20 font-mono text-[10px] text-primary bg-background/95 px-3 py-1.5 border border-primary/30 backdrop-blur-md pointer-events-auto">
+              </div>
             </div>
           </div>
         </motion.div>
