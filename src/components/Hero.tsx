@@ -36,7 +36,7 @@ export function Hero() {
           </h1>
 
           <p className="text-xl md:text-2xl text-white/60 font-light max-w-xl leading-relaxed mt-4 drop-shadow-lg">
-            Over 6 Years of Experience as a DevOps & Over 6 Years of Experience as a DevOps & Site Reliability Engineer specializing in high-availability cloud systems & GitOps workflows.
+            Over 6 Years of Experience as a DevOps & Site Reliability Engineer specializing in high-availability cloud systems & GitOps workflows.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mt-8 font-mono text-xs tracking-widest">
