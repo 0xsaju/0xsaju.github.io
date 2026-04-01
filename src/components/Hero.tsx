@@ -12,12 +12,12 @@ export function Hero() {
         LOC_DHAKA_BD_01
       </div>
 
-      <div className="w-full max-w-7xl relative z-10 flex items-center px-8 md:px-16 lg:px-24 min-h-[calc(100vh-5rem)]">
+      <div className="w-full relative z-10 flex items-center min-h-[calc(100vh-5rem)]">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="flex flex-col gap-6 max-w-2xl lg:max-w-3xl py-12 lg:py-20 relative z-20 pl-[100px]"
+          className="flex flex-col gap-6 max-w-2xl lg:max-w-3xl py-12 lg:py-20 relative z-20 ml-[100px]"
         >
           <div className="flex flex-col gap-2 font-mono text-xs tracking-widest">
             <div className="flex items-center gap-2 text-primary">
