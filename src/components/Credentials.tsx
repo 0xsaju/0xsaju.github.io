@@ -6,9 +6,9 @@ export function Credentials() {
   return (
     <section id="certs" className="py-32 px-8 md:px-16 lg:px-24 bg-surface-low border-y border-white/5">
       <div className="max-w-7xl mx-auto grid lg:grid-cols-[1.5fr_1fr] gap-16 lg:gap-24">
-        
+
         {/* Certifications */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -56,7 +56,7 @@ export function Credentials() {
         </motion.div>
 
         {/* Education */}
-        <motion.div 
+        <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
@@ -73,7 +73,7 @@ export function Credentials() {
           <div className="flex flex-col gap-12 border-l border-white/10 pl-8 ml-2">
             <div className="flex flex-col gap-2 relative">
               <div className="absolute -left-[32px] top-2 w-2 h-2 bg-secondary -translate-x-[4.5px] rounded-full" />
-              <h3 className="text-2xl font-bold tracking-tight text-white/90">B.Sc. CSE</h3>
+              <h3 className="text-2xl font-bold tracking-tight text-white/90">B.Sc. in CSE </h3>
               <span className="font-mono text-[10px] text-white/40 tracking-widest uppercase">SOUTHEAST UNIVERSITY</span>
             </div>
 
